@@ -1,0 +1,10 @@
+C:\Users\Windows\Desktop\TUP\programacion - logica\TP-parte-3\ABMempleados\ABMempleados\obj\Debug\ABMempleados.csproj.AssemblyReference.cache
+C:\Users\Windows\Desktop\TUP\programacion - logica\TP-parte-3\ABMempleados\ABMempleados\obj\Debug\TP_Parte_3.FrmEmpleados.resources
+C:\Users\Windows\Desktop\TUP\programacion - logica\TP-parte-3\ABMempleados\ABMempleados\obj\Debug\ABMempleados.Properties.Resources.resources
+C:\Users\Windows\Desktop\TUP\programacion - logica\TP-parte-3\ABMempleados\ABMempleados\obj\Debug\ABMempleados.csproj.GenerateResource.cache
+C:\Users\Windows\Desktop\TUP\programacion - logica\TP-parte-3\ABMempleados\ABMempleados\obj\Debug\ABMempleados.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Desktop\TUP\programacion - logica\TP-parte-3\ABMempleados\ABMempleados\bin\Debug\ABMempleados.exe.config
+C:\Users\Windows\Desktop\TUP\programacion - logica\TP-parte-3\ABMempleados\ABMempleados\bin\Debug\ABMempleados.exe
+C:\Users\Windows\Desktop\TUP\programacion - logica\TP-parte-3\ABMempleados\ABMempleados\bin\Debug\ABMempleados.pdb
+C:\Users\Windows\Desktop\TUP\programacion - logica\TP-parte-3\ABMempleados\ABMempleados\obj\Debug\ABMempleados.exe
+C:\Users\Windows\Desktop\TUP\programacion - logica\TP-parte-3\ABMempleados\ABMempleados\obj\Debug\ABMempleados.pdb
