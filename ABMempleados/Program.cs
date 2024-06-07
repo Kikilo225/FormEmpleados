@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows.Forms;
-using TP_Parte_3;
 
 namespace ABMempleados
 {

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TP_Parte_3
+namespace ABMempleados
 {
     partial class FrmEmpleados
     {
@@ -357,6 +357,7 @@ namespace TP_Parte_3
             this.Controls.Add(this.label1);
             this.Name = "FrmEmpleados";
             this.Text = "Empleados";
+            this.Load += new System.EventHandler(this.FrmEmpleados_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
