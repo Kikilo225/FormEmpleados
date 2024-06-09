@@ -1,0 +1,14 @@
+C:\Users\Windows\Desktop\TUP\programacion - logica\TP-parte-3\ABMEmpleadosv3\ABMEmpleadosv3\bin\Debug\ABMEmpleadosv3.exe.config
+C:\Users\Windows\Desktop\TUP\programacion - logica\TP-parte-3\ABMEmpleadosv3\ABMEmpleadosv3\bin\Debug\ABMEmpleadosv3.exe
+C:\Users\Windows\Desktop\TUP\programacion - logica\TP-parte-3\ABMEmpleadosv3\ABMEmpleadosv3\bin\Debug\ABMEmpleadosv3.pdb
+C:\Users\Windows\Desktop\TUP\programacion - logica\TP-parte-3\ABMEmpleadosv3\ABMEmpleadosv3\obj\Debug\ABMEmpleadosv3.csproj.AssemblyReference.cache
+C:\Users\Windows\Desktop\TUP\programacion - logica\TP-parte-3\ABMEmpleadosv3\ABMEmpleadosv3\obj\Debug\ABMEmpleadosv3.Properties.Resources.resources
+C:\Users\Windows\Desktop\TUP\programacion - logica\TP-parte-3\ABMEmpleadosv3\ABMEmpleadosv3\obj\Debug\ABMEmpleadosv3.csproj.GenerateResource.cache
+C:\Users\Windows\Desktop\TUP\programacion - logica\TP-parte-3\ABMEmpleadosv3\ABMEmpleadosv3\obj\Debug\ABMEmpleadosv3.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Desktop\TUP\programacion - logica\TP-parte-3\ABMEmpleadosv3\ABMEmpleadosv3\obj\Debug\ABMEmpleadosv3.exe
+C:\Users\Windows\Desktop\TUP\programacion - logica\TP-parte-3\ABMEmpleadosv3\ABMEmpleadosv3\obj\Debug\ABMEmpleadosv3.pdb
+C:\Users\Windows\Desktop\TUP\programacion - logica\TP-parte-3\ABMEmpleadosv3\ABMEmpleadosv3\obj\Debug\ABMEmpleadosv3.Soporte.resources
+C:\Users\Windows\Desktop\TUP\programacion - logica\TP-parte-3\ABMEmpleadosv3\ABMEmpleadosv3\obj\Debug\ABMEmpleadosv3.Empleados.resources
+C:\Users\Windows\Desktop\TUP\programacion - logica\TP-parte-3\ABMEmpleadosv3\ABMEmpleadosv3\obj\Debug\ABMEmpleadosv3.Presentacion.FormPrincipal.resources
+C:\Users\Windows\Desktop\TUP\programacion - logica\TP-parte-3\ABMEmpleadosv3\ABMEmpleadosv3\obj\Debug\ABMEmpleadosv3.Presentacion.FrmFNGO.resources
+C:\Users\Windows\Desktop\TUP\programacion - logica\TP-parte-3\ABMEmpleadosv3\ABMEmpleadosv3\obj\Debug\ABMEmpleadosv3.Presentacion.FormNuevo.resources
