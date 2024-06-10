@@ -50,8 +50,8 @@ namespace ABMEmpleadosv3.Presentacion
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.txbNombres = new System.Windows.Forms.TextBox();
-            this.txbApellidos = new System.Windows.Forms.TextBox();
+            this.txtNombres = new System.Windows.Forms.TextBox();
+            this.txtApellidos = new System.Windows.Forms.TextBox();
             this.cbBarrio = new System.Windows.Forms.ComboBox();
             this.txbDireccion = new System.Windows.Forms.TextBox();
             this.cbDocumento = new System.Windows.Forms.ComboBox();
@@ -62,8 +62,8 @@ namespace ABMEmpleadosv3.Presentacion
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.txbContacto = new System.Windows.Forms.TextBox();
             this.txbCargo = new System.Windows.Forms.TextBox();
-            this.btnCargar = new System.Windows.Forms.Button();
-            this.btnSalir = new System.Windows.Forms.Button();
+            this.btnGuardar = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -174,20 +174,20 @@ namespace ABMEmpleadosv3.Presentacion
             this.label12.TabIndex = 11;
             this.label12.Text = "Cargo";
             // 
-            // txbNombres
+            // txtNombres
             // 
-            this.txbNombres.Location = new System.Drawing.Point(116, 37);
-            this.txbNombres.Name = "txbNombres";
-            this.txbNombres.Size = new System.Drawing.Size(135, 20);
-            this.txbNombres.TabIndex = 0;
-            this.txbNombres.TextChanged += new System.EventHandler(this.txbNombres_TextChanged);
+            this.txtNombres.Location = new System.Drawing.Point(116, 37);
+            this.txtNombres.Name = "txtNombres";
+            this.txtNombres.Size = new System.Drawing.Size(135, 20);
+            this.txtNombres.TabIndex = 0;
+            this.txtNombres.TextChanged += new System.EventHandler(this.txbNombres_TextChanged);
             // 
-            // txbApellidos
+            // txtApellidos
             // 
-            this.txbApellidos.Location = new System.Drawing.Point(345, 37);
-            this.txbApellidos.Name = "txbApellidos";
-            this.txbApellidos.Size = new System.Drawing.Size(135, 20);
-            this.txbApellidos.TabIndex = 1;
+            this.txtApellidos.Location = new System.Drawing.Point(345, 37);
+            this.txtApellidos.Name = "txtApellidos";
+            this.txtApellidos.Size = new System.Drawing.Size(135, 20);
+            this.txtApellidos.TabIndex = 1;
             // 
             // cbBarrio
             // 
@@ -263,32 +263,33 @@ namespace ABMEmpleadosv3.Presentacion
             this.txbCargo.Size = new System.Drawing.Size(135, 20);
             this.txbCargo.TabIndex = 11;
             // 
-            // btnCargar
+            // btnGuardar
             // 
-            this.btnCargar.Location = new System.Drawing.Point(187, 330);
-            this.btnCargar.Name = "btnCargar";
-            this.btnCargar.Size = new System.Drawing.Size(64, 26);
-            this.btnCargar.TabIndex = 13;
-            this.btnCargar.Text = "Cargar";
-            this.btnCargar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Location = new System.Drawing.Point(187, 330);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(64, 26);
+            this.btnGuardar.TabIndex = 13;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
-            // btnSalir
+            // btnCancelar
             // 
-            this.btnSalir.Location = new System.Drawing.Point(284, 330);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(64, 26);
-            this.btnSalir.TabIndex = 17;
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            this.btnCancelar.Location = new System.Drawing.Point(284, 330);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(64, 26);
+            this.btnCancelar.TabIndex = 17;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // FormNuevo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(525, 396);
-            this.Controls.Add(this.btnSalir);
-            this.Controls.Add(this.btnCargar);
+            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.txbCargo);
             this.Controls.Add(this.txbContacto);
             this.Controls.Add(this.textBox4);
@@ -299,8 +300,8 @@ namespace ABMEmpleadosv3.Presentacion
             this.Controls.Add(this.cbDocumento);
             this.Controls.Add(this.txbDireccion);
             this.Controls.Add(this.cbBarrio);
-            this.Controls.Add(this.txbApellidos);
-            this.Controls.Add(this.txbNombres);
+            this.Controls.Add(this.txtApellidos);
+            this.Controls.Add(this.txtNombres);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -314,6 +315,7 @@ namespace ABMEmpleadosv3.Presentacion
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "FormNuevo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nuevo";
             this.Load += new System.EventHandler(this.FrmEmpleados_Load);
             this.ResumeLayout(false);
@@ -335,8 +337,8 @@ namespace ABMEmpleadosv3.Presentacion
         private Label label10;
         private Label label11;
         private Label label12;
-        private TextBox txbNombres;
-        private TextBox txbApellidos;
+        private TextBox txtNombres;
+        private TextBox txtApellidos;
         private ComboBox cbBarrio;
         private TextBox txbDireccion;
         private ComboBox cbDocumento;
@@ -347,7 +349,7 @@ namespace ABMEmpleadosv3.Presentacion
         private TextBox textBox4;
         private TextBox txbContacto;
         private TextBox txbCargo;
-        private Button btnCargar;
-        private Button btnSalir;
+        private Button btnGuardar;
+        private Button btnCancelar;
     }
 }

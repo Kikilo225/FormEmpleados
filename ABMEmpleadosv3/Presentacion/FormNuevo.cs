@@ -1,3 +1,4 @@
+using ABMEmpleadosv3.Datos;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -57,6 +58,21 @@ namespace ABMEmpleadosv3.Presentacion
         private void txbNombres_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            ConexionBD oEmpleadoDB = new ConexionBD();
+            try
+            {
+                oEmpleadoDB.Add( txtNombres.Text, txtApellidos.Text);
+                this.Close();
+                //NO TERMINADO
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al guardar " + ex.Message);
+            }
         }
     }
 }

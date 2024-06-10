@@ -34,7 +34,7 @@ namespace ABMEmpleadosv3.Presentacion
 
         private void empleado1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Empleados formEmpleados = new Empleados();
+            formEmpleados formEmpleados = new formEmpleados();
 
             formEmpleados.FormClosed += (s, args) => this.Show();
 

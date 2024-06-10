@@ -61,7 +61,7 @@ namespace ABMEmpleadosv3.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Data Source=DESKTOP-Q6GKN7O\SQLEXPRESS;Initial Catalog=DB_Fashion_World;Integrated Security=True;Trust Server Certificate=True.
+        ///   Busca una cadena traducida similar a Data Source=DESKTOP-Q6GKN7O\SQLEXPRESS;Initial Catalog=DB_Fashion_World;Integrated Security=True.
         /// </summary>
         internal static string CadenaConexion1 {
             get {
